@@ -19,19 +19,20 @@ if(Cats.equals("2")) JOptionPane.showMessageDialog(null, "Oh Ok...");
 if(Cats.equals("3")) JOptionPane.showMessageDialog(null, "-_-");
 if(Cats.equals("A Ton")) JOptionPane.showMessageDialog(null, ";-; wH4T R Uuuu Th1nkkkInng!?!?!?!?");
 if(Cats.equals("0")) JOptionPane.showMessageDialog(null,  "Good..");
+	}
 
 
 
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
 
-		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
 		
-	}
+//video    https://www.youtube.com/watch?v=cijXcKxluZ8		
+
 
 	static void playVideo(String videoURL) {
-		try {//www.youtube.com/watch?v=cijXcKxluZ8
-			URI uri = new URI(videoURL);
-			java.awt.Desktop.getDesktop().browse(uri);
+		try {
+			URI uri = new URI(videoURL);  
+           java.awt.Desktop.getDesktop().browse(uri);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
