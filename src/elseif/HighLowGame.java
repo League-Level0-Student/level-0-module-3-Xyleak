@@ -34,9 +34,9 @@ public class HighLowGame {
 
             
             
-            //{             
-            	//if(ans = random) JOptionPane.showMessageDialog(null, "Perfect"); 
-            //}
+            {             
+            if(ans = random) JOptionPane.showMessageDialog(null, "Perfect"); 
+            }
             
             
             
