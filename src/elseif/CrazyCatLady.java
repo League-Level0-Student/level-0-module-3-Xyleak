@@ -18,7 +18,7 @@ if(Cats.equals("1")) JOptionPane.showMessageDialog(null, "Oh Ok...");
 if(Cats.equals("2")) JOptionPane.showMessageDialog(null, "Oh Ok...");
 if(Cats.equals("3")) JOptionPane.showMessageDialog(null, "-_-");
 if(Cats.equals("A Ton")) JOptionPane.showMessageDialog(null, ";-; wH4T R Uuuu Th1nkkkInng!?!?!?!?");
-if(Cats.equals("0")) JOptionPane.showMessageDialog(null,  "Good..");
+else if(Cats.equals("0")) JOptionPane.showMessageDialog(null,  "Good..");
 	}
 
 
@@ -30,7 +30,7 @@ if(Cats.equals("0")) JOptionPane.showMessageDialog(null,  "Good..");
 
 
 	static void playVideo(String videoURL) {
-		try {
+		try { 
 			URI uri = new URI(videoURL);  
            java.awt.Desktop.getDesktop().browse(uri);
 		} catch (Exception e) {
