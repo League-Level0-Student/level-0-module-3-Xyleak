@@ -59,8 +59,8 @@ public class Horoscope {
 		
 	}
 
-	if (Symbol.equals("Aq")) {
-		JOptionPane.showMessageDialog(null, "You'll ____");
+	if (Symbol.equals("Aquarius")) {
+		JOptionPane.showMessageDialog(null, "You'll Read 123");
 		
 	}
 
